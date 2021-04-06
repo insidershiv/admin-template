@@ -10,7 +10,13 @@ const Test = React.lazy(() =>
 const routes = [
     { path: '/', exact: true, name: 'Home' },
     { path: '/dashboard', name: 'Dashboard', component: Dashboard },
-    { path: '/test', name: 'Test', component: Test },
+    { path: '/subadmin', name: 'Subadmin', component: Test },
+    { path: '/subadmin_add', name: 'Patient MGMT', component: Test },
+    { path: '/doctor_mgmt', name: 'Doctor Management', component: Test },
+    { path: '/medicine_mgmt', name: 'Medicine MGMT', component: Test },
+    { path: '/pharmacy_mgmt', name: 'Pharmacy MGMT', component: Test },
+    { path: '/order_mgmt', name: 'Ordrer Management', component: Test },
+    { path: '/specialization_mgmt', name: 'Specializations MGMT', component: Test },
 
 ];
 

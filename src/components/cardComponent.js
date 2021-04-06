@@ -4,7 +4,7 @@ const CardComponent = ({ title, count, img }) => {
     return (
         <div className="card text-white bg-primary" style={{ borderRadius: '1rem' }}>
             <div className="card-body" >
-                <div className="row d-flex justify-content-between p-2">
+                <div className="row d-flex justify-content-between p-1">
                     <div>
                         {count}
                     </div>
@@ -12,7 +12,7 @@ const CardComponent = ({ title, count, img }) => {
                         {img}
                     </div>
                 </div>
-                <div className="row mt-2 p-2">
+                <div className="row mt-2 p-1">
                     {title}
                 </div>
             </div>

@@ -21,7 +21,7 @@ export default {
         },
         {
             name: 'Patient MGMT',
-            url: '/subadmin_add',
+            url: '/patient_mgmt',
 
             badge: {
                 variant: 'info',

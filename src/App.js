@@ -7,14 +7,17 @@ const loading = () => <div className="animated fadeIn pt-3 text-center"><div cla
 // Containers
 const DefaultLayout = React.lazy(() => import('./containers/DefaultLayout'));
 
+const Subadmin = React.lazy(() =>
+  import('./views/SubAdmin'));
 class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <HashRouter >
         <React.Suspense fallback={loading()}>
           <Switch>
-            <Route path="/" name="Home" render={props => <DefaultLayout {...props}/>} />
+            <Route path="/" name="Home" render={props => <DefaultLayout {...props} />} />
+            <Route path="/subadmin_add" name="Subadmin Add" render={props => <DefaultLayout {...props} />} />
           </Switch>
         </React.Suspense>
       </HashRouter>

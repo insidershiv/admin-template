@@ -1,4 +1,4 @@
-const dashboardTableItems = {
+export const dashboardTableItems = {
     heading: [
         'Booking ID',
         'Patients',
@@ -22,4 +22,35 @@ const dashboardTableItems = {
 
     ]
 
+
+}
+
+export const tableHeading = ['Booking ID',
+    'Patients',
+    'Appointment Date & Time',
+    'Booking Date & Time',
+    'Consultation Fee',
+    'Consultation Type',
+    'Payment Mode',
+    'Status'
+]
+
+export const subAdminTableItems = {
+    headings: [
+        'Name',
+        'Email ID',
+        'Mobile Number',
+        'Area Manager',
+        'Access Modules',
+        'Actions',
+        '',
+        ''
+    ],
+
+    rows: [
+        ['Joe', 'abcd@gmail.com', '1015444444', 'Delhi', 'lorem ipsum', 'icon', 'view', 'Delete'],
+        ['Trixon', 'abcde@gmail.com', '1015444444', 'Delhi', 'lorem ipsum', 'icon', 'view', 'Delete'],
+        ['Sam', 'abcdf@gmail.com', '1015444444', 'Delhi', 'lorem ipsum', 'icon', 'view', 'Delete'],
+        ['John', 'abcdg@gmail.com', '1015444444', 'Delhi', 'lorem ipsum', 'icon', 'view', 'Delete']
+    ]
 }
